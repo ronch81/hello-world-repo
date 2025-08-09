@@ -4,10 +4,10 @@ on:
     push
 
 jobs:
-    build:
+    hello-job:
         runs-on: ubuntu-latest
         steps:
-            - name: hello-job
+            - name: hello-text
               run: echo "Hello World!"
 
 
